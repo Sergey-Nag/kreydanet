@@ -9,9 +9,43 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.btn {
   font-family: 'Cera Pro Regular', sans-serif;
   font-weight: bolder;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+header p {
+  margin-bottom: .3rem;
+}
+
+.h_link {
+  color: #ffe000;
+  text-decoration: underline;
+}
+
+.btn.btn-yellow {
+  font-size: 1.3rem;
+  border-radius: 100px;
+  padding: .4rem 2rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  background: #ffe000;
+}
+.btn.btn-yellow:before {
+  width: inherit;
+  height: inherit;
+  background: #ffe000;
+}
+
+.btn.btn-yellow.brd {
+  background: none;
+  border: solid 3px #ffe000;
+  color: #ffe000;
 }
 
 .nav-link a {
@@ -82,4 +116,12 @@ h6 {
 
 .third {
   font-size: 1rem;
+}
+
+.header-butts {
+  margin: 50px 0 30px;
+}
+
+.header-butts .btn:first-child {
+  margin-right: 20px;
 }
